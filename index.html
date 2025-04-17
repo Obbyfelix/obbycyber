@@ -1,0 +1,64 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CyberHub Cafe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>CyberHub Cafe</h1>
+    <nav>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to CyberHub Cafe</h2>
+    <p>Your ultimate internet and gaming experience!</p>
+    <button onclick="alert('Welcome to CyberHub Cafe!')">Say Hello</button>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>High-Speed Internet Browsing</li>
+      <li>Online Gaming</li>
+      <li>Printing & Scanning</li>
+      <li>Typing and Document Services</li>
+    </ul>
+  </section>
+
+  <section id="pricing">
+    <h2>Pricing</h2>
+    <table>
+      <tr><th>Service</th><th>Price</th></tr>
+      <tr><td>Browsing (1hr)</td><td>$1.00</td></tr>
+      <tr><td>Gaming (1hr)</td><td>$1.50</td></tr>
+      <tr><td>Printing (Per Page)</td><td>$0.10</td></tr>
+    </table>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form onsubmit="submitForm(event)">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 CyberHub Cafe. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
